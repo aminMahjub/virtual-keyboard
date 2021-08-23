@@ -1,0 +1,98 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+html {
+    height: 100vh;
+}
+
+.container {
+    height: 100vh;
+    background-color: darkslateblue;
+    overflow: hidden;
+    display: grid;
+}
+
+#text-input {
+    height: 50vh;
+    background-color: rgba(10, 1, 10, 0.096);
+    border: 0px;
+    font-size: 25px;
+    padding: 30px;
+    border-bottom: 10px solid salmon;
+    color: white;
+}
+
+.keyboard-section {
+    position: absolute;
+    height: 40vh;
+    width: 100vw;
+    bottom: 0px;
+    background-color: #a9a9a9 ;
+}
+
+.number-buttons 
+,.line-one
+,.line-two 
+,.line-three
+{
+    background-color: #a9a9a9 ;
+    display: flex;
+    height: 7.2vh;
+    justify-content: space-between;
+}
+
+.line-four {
+    display: flex;
+    background-color: #a9a9a9;
+    justify-content: space-around;
+    height: 6vh;
+}
+
+.keyboard-section button {
+    width: 7vw;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #d3d3d3;
+    cursor: pointer;
+}
+
+.keyboard-section button:hover {
+    background-color: rgba(158, 153, 158, 0.726);
+}
+
+.backspace-button {
+    width: 10vw !important
+}
+
+.line-one button {
+    width: 6.5vw !important;
+}
+
+.keyboard-section div {
+    margin-top: 5px;
+}
+
+.caps-button,.enter-button {
+    width: 9vw !important;
+}
+
+.shift-button {
+    width: 10vw !important
+}
+
+.space-button {
+    flex: 8;
+}
+
+.adsign-button {
+    flex: 1;
+}
+
+.com-button {
+    flex: 1;
+}
